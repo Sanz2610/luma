@@ -16,8 +16,8 @@ Windows 10/11, 64-bit (x64). Luma is an early public release; feedback is welcom
 
 | Build | Best for | Updates |
 | --- | --- | --- |
-| **[Installer — Setup.exe](https://github.com/Sanz2610/luma/releases/latest/download/Luma-1.6.1-Setup.exe)** | Regular use. Installs to Program Files with Start/Desktop shortcuts. Administrator/UAC access is required. | Checks and downloads updates in the background. Choose **Restart to update** when ready. |
-| **[Portable — Windows.exe](https://github.com/Sanz2610/luma/releases/latest/download/Luma-1.6.1-Windows.exe)** | Run without installing. Extracts on launch; settings are stored in your Windows profile. | Checks for new releases. Download the new portable file and replace the old one while Luma is closed. |
+| **[Installer — Setup.exe](https://github.com/Sanz2610/luma/releases/latest/download/Luma-1.7.0-Setup.exe)** | Regular use. Installs to Program Files with Start/Desktop shortcuts. Administrator/UAC access is required. | Checks and downloads updates in the background. Choose **Restart to update** when ready. |
+| **[Portable — Windows.exe](https://github.com/Sanz2610/luma/releases/latest/download/Luma-1.7.0-Windows.exe)** | Run without installing. Extracts on launch; settings are stored in your Windows profile. | Checks for new releases. Download the new portable file and replace the old one while Luma is closed. |
 
 The current build has no publisher signing certificate, so Windows may show an unknown-publisher warning. Download from this repository's Releases and compare SHA-256 with `SHA256SUMS.txt` when needed. Versions before 1.6 require one manual update to gain the updater.
 
@@ -26,6 +26,7 @@ The current build has no publisher signing certificate, so Windows may show an u
 - **Photos first:** edge-to-edge grids with square corners, 1–12 full-width columns, square or 4:5 tiles, and crop/fit options.
 - **Folders as tabs:** every immediate subfolder becomes a tab. Drag to reorder, sort by name or date created, and add custom display names without renaming directories.
 - **Find folders fast:** searchable folder browser in 1–4 columns, keyboard navigation and a Manage mode for sorting, renaming and hiding tabs.
+- **Browse deeper:** the small footer path opens subfolders with breadcrumbs, search and parent navigation. A tab includes descendant photos; pick a deeper folder to view only that branch without more tabs.
 - **An independent viewer:** keep browsing the library while viewing a photo in its own window. Fit, actual size, wheel zoom, pan, fullscreen, and clickable navigation edges.
 - **Remember your workspace:** library and viewer restore their own windowed, maximized or fullscreen state.
 - **Organize:** select multiple photos and move them to Windows Recycle Bin after confirmation.
@@ -38,9 +39,11 @@ The current build has no publisher signing certificate, so Windows may show an u
 
 1. Install Luma or run the portable executable.
 2. Choose the parent folder containing your photo folders.
-3. Switch tabs and adjust **Columns** in the footer. Click an image to open the viewer.
+3. Switch tabs and adjust **Thumbnail size** in the footer. Plus makes photos larger, minus makes them smaller; every step changes one column. Click an image to open the viewer.
 
 Your photos stay in their source folders. Closing or renaming a tab does not move, rename or delete its directory. Closing **All photos** returns Home; select the root again to reopen it. Closed folders can be restored from **Folders → Hidden**.
+
+If all folders were hidden, Luma explains the empty library and offers **Hidden folders** directly. About keeps one GitHub button, a clickable creator name, MIT license and optional Donate.
 
 ## Shortcuts
 
@@ -62,7 +65,7 @@ The grid and tabs are virtualized, and thumbnail decoding runs in a separate pro
 
 **Settings → Updates** shows your version and update status. Automatic checking can be turned off. Installer updates download in the background and require an explicit **Restart to update**; Luma does not silently restart while you browse. Program Files updates can trigger UAC. Portable builds offer a new download instead of replacing themselves.
 
-Browsing and thumbnail generation happen locally. Settings and cached previews live under `%APPDATA%\Luma`; the thumbnail cache is pruned toward 512 MB. The updater checks GitHub Releases and uses a separate update-download cache. Luma has no analytics or automatic diagnostic uploads.
+Browsing and thumbnail generation happen locally. Settings and cached previews live under `%APPDATA%\Luma`; the thumbnail cache is pruned toward 1 GB. The updater checks GitHub Releases and uses a separate update-download cache. Luma has no analytics or automatic diagnostic uploads.
 
 **Google Lens is an explicit online action:** clicking its icon sends a bounded preview of the current photo to Google in your browser. Google may require login or CAPTCHA. Opening a configured folder link uses your browser too. Ordinary photo browsing does not upload photos.
 
