@@ -1,0 +1,32 @@
+name: Bug report
+description: Report a problem with Luma for Windows
+body:
+  - type: markdown
+    attributes:
+      value: Please do not attach private photos or unredacted logs.
+  - type: input
+    id: version
+    attributes:
+      label: Luma version and build
+      placeholder: 1.6.0 Installer / Portable
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+      placeholder: Windows 11 x64
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: What did you do, what happened, and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Image or library context
+      description: File type/dimensions, approximate photo/folder count, and local/network drive. Use sample files only.
