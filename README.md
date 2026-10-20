@@ -16,18 +16,18 @@ Windows 10/11, 64-bit (x64). Luma is an early public release; feedback is welcom
 
 | Build | Best for | Updates |
 | --- | --- | --- |
-| **[Installer — Setup.exe](https://github.com/Sanz2610/luma/releases/latest/download/Luma-1.7.0-Setup.exe)** | Regular use. Installs to Program Files with Start/Desktop shortcuts. Administrator/UAC access is required. | Checks and downloads updates in the background. Choose **Restart to update** when ready. |
-| **[Portable — Windows.exe](https://github.com/Sanz2610/luma/releases/latest/download/Luma-1.7.0-Windows.exe)** | Run without installing. Extracts on launch; settings are stored in your Windows profile. | Checks for new releases. Download the new portable file and replace the old one while Luma is closed. |
+| **[Installer - Setup.exe](https://github.com/Sanz2610/luma/releases/latest/download/Luma-1.8.0-Setup.exe)** | Regular use. Installs to Program Files with Start/Desktop shortcuts. Administrator/UAC access is required. | Checks and downloads updates in the background. Choose **Restart to update** when ready. |
+| **[Portable - Windows.exe](https://github.com/Sanz2610/luma/releases/latest/download/Luma-1.8.0-Windows.exe)** | Run without installing. Extracts on launch; settings are stored in your Windows profile. | Checks for new releases. Download the new portable file and replace the old one while Luma is closed. |
 
 The current build has no publisher signing certificate, so Windows may show an unknown-publisher warning. Download from this repository's Releases and compare SHA-256 with `SHA256SUMS.txt` when needed. Versions before 1.6 require one manual update to gain the updater.
 
 ## Made for browsing
 
-- **Photos first:** edge-to-edge grids with square corners, 1–12 full-width columns, square or 4:5 tiles, and crop/fit options.
+- **Photos first:** edge-to-edge grids with square corners, 1-12 full-width columns, square or 4:5 tiles, and crop/fit options.
 - **Folders as tabs:** every immediate subfolder becomes a tab. Drag to reorder, sort by name or date created, and add custom display names without renaming directories.
-- **Find folders fast:** searchable folder browser in 1–4 columns, keyboard navigation and a Manage mode for sorting, renaming and hiding tabs.
+- **Find folders fast:** searchable folder browser in 1-4 columns, keyboard navigation and a Manage mode for sorting, renaming and hiding tabs.
 - **Browse deeper:** the small footer path opens subfolders with breadcrumbs, search and parent navigation. A tab includes descendant photos; pick a deeper folder to view only that branch without more tabs.
-- **An independent viewer:** keep browsing the library while viewing a photo in its own window. Fit, actual size, wheel zoom, pan, fullscreen, and clickable navigation edges.
+- **Viewer:** keep browsing the library while a photo is open in its own window. Fit, actual size, wheel zoom, pan, fullscreen and navigation edges. Wheel zoom-out stops at Fit; the slider goes smaller. Info shows dimensions, file size, dates, available DPI/bit depth and the source path.
 - **Remember your workspace:** library and viewer restore their own windowed, maximized or fullscreen state.
 - **Organize:** select multiple photos and move them to Windows Recycle Bin after confirmation.
 - **Folder shortcuts:** attach a website or search text to an individual tab.
@@ -49,17 +49,19 @@ If all folders were hidden, Luma explains the empty library and offers **Hidden 
 
 | Library | Viewer |
 | --- | --- |
-| **Ctrl+F** — search photos | **← / →** — previous / next |
-| **Ctrl+K** — find a folder | **Mouse wheel** — zoom |
-| **F5** — refresh | **0 / 1** — fit / actual size |
-| **F11** — fullscreen | **F / F11** — fullscreen |
-| **Shift+click** — select a range | **Esc** — close viewer |
+| **Ctrl+F** - search photos | **← / →** - previous / next |
+| **Ctrl+K** - find a folder | **Mouse wheel** - zoom |
+| **F5** - refresh | **0 / 1** - fit / actual size |
+| **F11** - fullscreen | **F / F11** - fullscreen |
+| **Shift+click** - select a range | **Esc** - close viewer |
 
 ## Formats and large libraries
 
-JPG/JPEG, PNG, WebP, GIF, AVIF and BMP. GIF thumbnails are static; the original GIF animates in the viewer. RAW, HEIC, TIFF and video are not supported.
+JPG/JPEG, PNG, WebP, GIF, AVIF, BMP, TIFF and HEIC/HEIF. GIF thumbnails are static; original GIFs animate. TIFF shows its first page. TIFF/HEIC use a converted display preview up to 4096 px. Camera RAW files show an embedded JPEG preview when one is available (CR2/CR3, NEF/NRW, ARW, DNG, RW2, ORF, RAF, PEF, SRW); Luma does not develop sensor data. Preview quality/size depends on the camera. Video is outside scope.
 
 The grid and tabs are virtualized, and thumbnail decoding runs in a separate process. Regression checks include 240 folders and 4,800 synthetic photos. Very large originals, malformed files and slow/network drives can still affect speed and memory. Some compressed BMP variants and images above the 64 MP preview limit may lack thumbnails.
+
+HEIC inputs above 128 MB are rejected before decoding. Codec notices and matching HEIC codec source archives accompany releases; see [Image codec sources](CODEC_SOURCES.md). Originals are not converted or overwritten.
 
 ## Updates, storage and privacy
 
@@ -73,4 +75,4 @@ Browsing and thumbnail generation happen locally. Settings and cached previews l
 
 Use **[Issues](https://github.com/Sanz2610/luma/issues)** for bugs and suggestions. Include your Luma version, Windows version, installer/portable build, steps to reproduce and the affected file type. Do not attach private photos or unredacted logs.
 
-Enjoying Luma? **[Buy me a coffee](DONATE.md)** — optional support for its continued development.
+Enjoying Luma? **[Buy me a coffee](DONATE.md)** - optional support for its continued development.

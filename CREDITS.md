@@ -1,6 +1,6 @@
 # Credits
 
-**Luma — Your photos, in focus.**
+**Luma - Your photos, in focus.**
 
 Created and maintained by **[Sanz2610](https://github.com/Sanz2610)**. Product concept, direction, design feedback and release stewardship by Sanz2610. Developed with assistance from OpenAI Codex.
 
@@ -9,3 +9,5 @@ Copyright © 2026 Sanz2610. Luma's original code and documentation are released 
 Luma uses Electron/Chromium, React, Lucide, Sharp, electron-updater, Be Vietnam Pro and other open-source components. Their authors retain their own copyrights and licenses. Full notices accompany the Windows releases in `THIRD_PARTY_NOTICES.txt`; Electron and Chromium license texts also ship in the application payload.
 
 Public project and source snapshots: **https://github.com/Sanz2610/luma**.
+
+HEIC decoding uses heic-decode and libheif-js (libheif/libde265); image metadata and embedded RAW preview extraction use ExifTool. Their licenses remain separate from Luma's MIT license. See CODEC_SOURCES.md and the codec source archive in Releases. These codecs are unmodified.
