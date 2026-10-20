@@ -6,8 +6,6 @@
 
 A focused photo browser for Windows. Open a folder, browse big photo grids, switch between folder tabs, and keep viewing in a separate window.
 
-**[Download for Windows](https://github.com/Sanz2610/luma/releases/latest)** · **[Report a bug](https://github.com/Sanz2610/luma/issues/new?template=bug_report.yml)**
-
 Free and open source · [MIT License](LICENSE) · Created by [Sanz2610](https://github.com/Sanz2610) · [Source snapshots](SOURCE.md)
 
 ![Luma photo library with folder tabs and compact controls](images/library.png)
@@ -72,8 +70,4 @@ Browsing and thumbnail generation happen locally. Settings and cached previews l
 
 Use **[Issues](https://github.com/Sanz2610/luma/issues)** for bugs and suggestions. Include your Luma version, Windows version, installer/portable build, steps to reproduce and the affected file type. Do not attach private photos or unredacted logs.
 
-This repository contains the introduction, released source snapshots and Windows downloads. Development history is maintained in a separate private repository. Open-source component notices accompany each release; Electron and Chromium licenses are included in the application payload. See [Credits](CREDITS.md) for attribution. In Luma, the sidebar's **About Luma** button links to the project, developer, source and license.
-
 Enjoying Luma? **[Buy me a coffee](DONATE.md)** — optional support for its continued development.
-
-Screenshots use generated sample artwork.
