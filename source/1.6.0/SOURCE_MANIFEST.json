@@ -1,0 +1,353 @@
+{
+  "version": "1.6.0",
+  "developmentCommit": "5ba082d3aa31d3f0ec31dcfd7d351fd1bfd35092",
+  "license": "MIT",
+  "copyright": "2026 Sanz2610",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "67c8553872a8e7d08366c8ec66767ef13938ea04f749c3bcdbe050c664d340af",
+      "originalSha256": "67c8553872a8e7d08366c8ec66767ef13938ea04f749c3bcdbe050c664d340af",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "b0bae0e5bdec636f5b19b787abc5b76e4eff780da166201f351f1cc5d25773e9",
+      "originalSha256": "b0bae0e5bdec636f5b19b787abc5b76e4eff780da166201f351f1cc5d25773e9",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": ".prettierrc.json",
+      "sha256": "e28ccfeb960cc0bf8e47d32a842193bda31918ba81132f70b9c5623a0b8c3da3",
+      "originalSha256": "e28ccfeb960cc0bf8e47d32a842193bda31918ba81132f70b9c5623a0b8c3da3",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "build/icon.ico",
+      "sha256": "ddcd3017be6bab4947c80ed905273fd85a2ce39ff2812b8db8d4939233fa2bd4",
+      "originalSha256": "ddcd3017be6bab4947c80ed905273fd85a2ce39ff2812b8db8d4939233fa2bd4",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "build/icon.png",
+      "sha256": "fc7940982ce95a62ecc86bd771aef4e12108867edede3d8a53f1dafd4a3153c3",
+      "originalSha256": "fc7940982ce95a62ecc86bd771aef4e12108867edede3d8a53f1dafd4a3153c3",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "build/installer.nsh",
+      "sha256": "40b2bae930c08b5bc7f83a82c0cc83e8b8cc99e026d4883ec5407248b7bfd6af",
+      "originalSha256": "40b2bae930c08b5bc7f83a82c0cc83e8b8cc99e026d4883ec5407248b7bfd6af",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "electron/lens.cjs",
+      "sha256": "e402849e4fb214c1d0b3b3e94e7c9f23695f9d2f9a9ed3deb90426c7c5ac3325",
+      "originalSha256": "e402849e4fb214c1d0b3b3e94e7c9f23695f9d2f9a9ed3deb90426c7c5ac3325",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "electron/library.cjs",
+      "sha256": "931da1cf00bc79bb94686b5ff0f4809a031889cde36ce2b36665e335ddcd5d04",
+      "originalSha256": "931da1cf00bc79bb94686b5ff0f4809a031889cde36ce2b36665e335ddcd5d04",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "electron/main.cjs",
+      "sha256": "3dd88068d3be05610c3c5ac11cf2bcb562b9cbf00524503e7dc12ca21358b10d",
+      "originalSha256": "3dd88068d3be05610c3c5ac11cf2bcb562b9cbf00524503e7dc12ca21358b10d",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "electron/preload.cjs",
+      "sha256": "6f44937d238d50a1580a1cccc9183ef566f7c785d8085fa7247d2b1814d9ec39",
+      "originalSha256": "6f44937d238d50a1580a1cccc9183ef566f7c785d8085fa7247d2b1814d9ec39",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "electron/thumbnail-service.cjs",
+      "sha256": "11ad01263b1e0ee51b28e1cf3c31755f1968e434674049f9d11d97a4130c2c0e",
+      "originalSha256": "11ad01263b1e0ee51b28e1cf3c31755f1968e434674049f9d11d97a4130c2c0e",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "electron/thumbnail-worker.cjs",
+      "sha256": "8309ae38ae21d3033798bf192ff39d32f2c88d9cc143ac694c672f3d14a0e6d7",
+      "originalSha256": "8309ae38ae21d3033798bf192ff39d32f2c88d9cc143ac694c672f3d14a0e6d7",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "electron/updates.cjs",
+      "sha256": "21e313b954fc23598b6b8aec72a5a6835ebca996c10486f0eb0585b5aa356be7",
+      "originalSha256": "21e313b954fc23598b6b8aec72a5a6835ebca996c10486f0eb0585b5aa356be7",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "electron/window-message.cjs",
+      "sha256": "d7b5af0669455e70391168d1fcad13e4770219e1580bc9a9925ff842bbff7fdd",
+      "originalSha256": "d7b5af0669455e70391168d1fcad13e4770219e1580bc9a9925ff842bbff7fdd",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "electron/window-state.cjs",
+      "sha256": "f12632a8ad7cf781ba52093a2f847cdaf770a844647d65ee5b984b5a92ce5581",
+      "originalSha256": "f12632a8ad7cf781ba52093a2f847cdaf770a844647d65ee5b984b5a92ce5581",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "index.html",
+      "sha256": "e0c62c03b79aa541d70405d144131a700b6fe88a641a8adfe09f861b97113603",
+      "originalSha256": "e0c62c03b79aa541d70405d144131a700b6fe88a641a8adfe09f861b97113603",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "db5f84e14c9f6d6add78acc5ef5288f59fb1e497d6e882a245f1a5da4bdae079",
+      "originalSha256": "629cbbaae940dc94a9e1691abf335413f943365397f656c2c84d159e5c5512f3",
+      "matchesDevelopmentCommit": false
+    },
+    {
+      "path": "package.json",
+      "sha256": "200fb2a9e4bc8980b548053dbdd131dbbdbd2afbd3375d47a421797e67f1d1c0",
+      "originalSha256": "79521a0e1c16dd8c55361a0b4c5d44ede02b1e9a65f308a56a0502e60661bae1",
+      "matchesDevelopmentCommit": false
+    },
+    {
+      "path": "scripts/github.mjs",
+      "sha256": "c6e4e39a2f0c37017820f22291ff40d7e2a11acf904098944704fc7e2d6d37ab",
+      "originalSha256": "c6e4e39a2f0c37017820f22291ff40d7e2a11acf904098944704fc7e2d6d37ab",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "scripts/notices.mjs",
+      "sha256": "275d3ecc6423f3f4ed4210f070273558c9948fc508338c6c881e7083ada91731",
+      "originalSha256": "275d3ecc6423f3f4ed4210f070273558c9948fc508338c6c881e7083ada91731",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "scripts/prepare-release.mjs",
+      "sha256": "f7a3dce4ebdd5cbce7f040a3fbd2e91aa5ab4ee6145412b46e8ac49b88ca1c61",
+      "originalSha256": "f7a3dce4ebdd5cbce7f040a3fbd2e91aa5ab4ee6145412b46e8ac49b88ca1c61",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "scripts/publish-release.mjs",
+      "sha256": "c484fa36c181ed270ef304bda98280b2bf445ae2584d8c2c92a3e2fe72e64235",
+      "originalSha256": "c484fa36c181ed270ef304bda98280b2bf445ae2584d8c2c92a3e2fe72e64235",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "src/App.jsx",
+      "sha256": "1509b94741e77d2d93ba2afb6cbf90ee41c49042218d16957ef6ce5b2bd82456",
+      "originalSha256": "1509b94741e77d2d93ba2afb6cbf90ee41c49042218d16957ef6ce5b2bd82456",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "src/FolderTabs.jsx",
+      "sha256": "e06caf7f2f4d267e738b2824107648c4d2796f5ecf95192c8abd7392fc3149a6",
+      "originalSha256": "e06caf7f2f4d267e738b2824107648c4d2796f5ecf95192c8abd7392fc3149a6",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "src/PhotoGrid.jsx",
+      "sha256": "dbd30785579c893095b7c42975b84c61fe29609ebea90e6179ecfcf3bc8c06cb",
+      "originalSha256": "dbd30785579c893095b7c42975b84c61fe29609ebea90e6179ecfcf3bc8c06cb",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "src/Thumbnail.jsx",
+      "sha256": "6c5228952d8f942ca569fe6a652d27a5b7166ae2202809eb99821fd74dc13987",
+      "originalSha256": "6c5228952d8f942ca569fe6a652d27a5b7166ae2202809eb99821fd74dc13987",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "src/Updates.jsx",
+      "sha256": "509d0a52b0f08023d09baafd6b19abf0c1242a6cbfce76f72bf2bffc8cd9895f",
+      "originalSha256": "509d0a52b0f08023d09baafd6b19abf0c1242a6cbfce76f72bf2bffc8cd9895f",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "src/Viewer.jsx",
+      "sha256": "86a8ebdd323d15224c736e319566522a3da75b33e5b6ff355498f03df05919a0",
+      "originalSha256": "86a8ebdd323d15224c736e319566522a3da75b33e5b6ff355498f03df05919a0",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "src/ViewerWindow.jsx",
+      "sha256": "ddaed7dd8111454a5c24b4b3e33ff4e21a41e37f3160acf852b2f5632b3d7879",
+      "originalSha256": "ddaed7dd8111454a5c24b4b3e33ff4e21a41e37f3160acf852b2f5632b3d7879",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "src/WindowMaximize.jsx",
+      "sha256": "fce7f6532a05714a26312ff90cb5344b0f3b8258b6bab4d393fa4150abd64d56",
+      "originalSha256": "fce7f6532a05714a26312ff90cb5344b0f3b8258b6bab4d393fa4150abd64d56",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "src/api.js",
+      "sha256": "19e8c20ffd4d385ef165c21cc42ca7113adf9d9deb1c58ade9dbffc98c2a81b8",
+      "originalSha256": "19e8c20ffd4d385ef165c21cc42ca7113adf9d9deb1c58ade9dbffc98c2a81b8",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "src/layout.mjs",
+      "sha256": "0e0d4ff19beb21b8452cf4f443ef73e9618ca58c199612c37ba33350ff86b054",
+      "originalSha256": "0e0d4ff19beb21b8452cf4f443ef73e9618ca58c199612c37ba33350ff86b054",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "src/main.jsx",
+      "sha256": "9087fda3af10e335c2965fc59e5492971eb9a158d4da9f97e7e793a6717392ad",
+      "originalSha256": "9087fda3af10e335c2965fc59e5492971eb9a158d4da9f97e7e793a6717392ad",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "src/styles.css",
+      "sha256": "74e1f7b05a25bf91a950388e5b296981a4749ea2900baa803bff9b0ea0e29bf1",
+      "originalSha256": "74e1f7b05a25bf91a950388e5b296981a4749ea2900baa803bff9b0ea0e29bf1",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "src/thumbnail-client.js",
+      "sha256": "63b8ead6fa89c4d27af40bacb2f667ad9f287cc947960480b4dc7bf36c0e9383",
+      "originalSha256": "63b8ead6fa89c4d27af40bacb2f667ad9f287cc947960480b4dc7bf36c0e9383",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "src/ui.jsx",
+      "sha256": "8af8ab2780c2304597b986a81718e1c13f73ba57158ae56aaed90ecf5594c995",
+      "originalSha256": "8af8ab2780c2304597b986a81718e1c13f73ba57158ae56aaed90ecf5594c995",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "tests/app.mjs",
+      "sha256": "1b11d8f912d9beff8281d971eac862a658b718385b231b3e17d7c02ce9e51bda",
+      "originalSha256": "1b11d8f912d9beff8281d971eac862a658b718385b231b3e17d7c02ce9e51bda",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "tests/fixtures.mjs",
+      "sha256": "facef6f56bf6ac8cbf47959029d2be718863125e1e05a65a2f05a314d82c19ab",
+      "originalSha256": "facef6f56bf6ac8cbf47959029d2be718863125e1e05a65a2f05a314d82c19ab",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "tests/formats.mjs",
+      "sha256": "113b8bc94caa3373a834644dd3c56fc48189970c8ba6b76cc860620897b01307",
+      "originalSha256": "113b8bc94caa3373a834644dd3c56fc48189970c8ba6b76cc860620897b01307",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "tests/layout.test.mjs",
+      "sha256": "f678b002ace466af0fe40d37061016ee59dfaddbc14a5bfa18e7ddeace8eba5b",
+      "originalSha256": "f678b002ace466af0fe40d37061016ee59dfaddbc14a5bfa18e7ddeace8eba5b",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "tests/lens.mjs",
+      "sha256": "95f49fe8f179e729c03302ad2e5327dcf13ce8068fcd5637313fda9f9ec2216d",
+      "originalSha256": "95f49fe8f179e729c03302ad2e5327dcf13ce8068fcd5637313fda9f9ec2216d",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "tests/library.test.cjs",
+      "sha256": "ecff30a82dd05897a55f5e0cdbe8762cbb9c7c41fce0d32da7c8a822a6215b84",
+      "originalSha256": "ecff30a82dd05897a55f5e0cdbe8762cbb9c7c41fce0d32da7c8a822a6215b84",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "tests/packaged.mjs",
+      "sha256": "b5e1955991be8c8156d85a799ca8f3c116bffb159d1497b17f17f6286b884cac",
+      "originalSha256": "b5e1955991be8c8156d85a799ca8f3c116bffb159d1497b17f17f6286b884cac",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "tests/portable.mjs",
+      "sha256": "1cb5ff488942856b50ddc31ac7d0021f248defc38830b0a11bcd494bdb84c460",
+      "originalSha256": "1cb5ff488942856b50ddc31ac7d0021f248defc38830b0a11bcd494bdb84c460",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "tests/preview-server.mjs",
+      "sha256": "78e5e94af8fdd869bcedcae6b6f43658391c4d23a51df306736b6a65a8e22614",
+      "originalSha256": "78e5e94af8fdd869bcedcae6b6f43658391c4d23a51df306736b6a65a8e22614",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "tests/public-updates.mjs",
+      "sha256": "ea1d96b4c12c8a193aaf74a9546e27bb4647182dea178cebbd28a5a6b0aa18dc",
+      "originalSha256": "ea1d96b4c12c8a193aaf74a9546e27bb4647182dea178cebbd28a5a6b0aa18dc",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "tests/stability.mjs",
+      "sha256": "7ccd462a2dfe86557fea56c013597dd5a18e94b9b8ed44ec6e5143b3c8ac8389",
+      "originalSha256": "7ccd462a2dfe86557fea56c013597dd5a18e94b9b8ed44ec6e5143b3c8ac8389",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "tests/startup.mjs",
+      "sha256": "71d48a2803ec0ebbe0ac215bcb302e8ec256a73ece77158ae7b938737e58383e",
+      "originalSha256": "71d48a2803ec0ebbe0ac215bcb302e8ec256a73ece77158ae7b938737e58383e",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "tests/thumbnail-service.test.cjs",
+      "sha256": "7cb836e416debe590bf8af61f76bd4fe18cf83ee9b6ce410041931e462052fb9",
+      "originalSha256": "7cb836e416debe590bf8af61f76bd4fe18cf83ee9b6ce410041931e462052fb9",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "tests/ui.mjs",
+      "sha256": "597524fb990ecb9a2dfa41f387326a23452391b9d4ac1278c6b4da72cbdde4ec",
+      "originalSha256": "597524fb990ecb9a2dfa41f387326a23452391b9d4ac1278c6b4da72cbdde4ec",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "tests/updates.mjs",
+      "sha256": "1d712465ba75c4cbe1fa152b8953e16b893a6714e2c1161328b9dc04e7edd614",
+      "originalSha256": "1d712465ba75c4cbe1fa152b8953e16b893a6714e2c1161328b9dc04e7edd614",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "tests/updates.test.cjs",
+      "sha256": "bce1eb01256908ae73dcaa08352b0c90c3f6b4f944318d8cfd027429bc9bc242",
+      "originalSha256": "bce1eb01256908ae73dcaa08352b0c90c3f6b4f944318d8cfd027429bc9bc242",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "tests/window-state.test.cjs",
+      "sha256": "8e60590479692c477c79ca308d79cec39b9bcd74944436c636cb410855c7bfc5",
+      "originalSha256": "8e60590479692c477c79ca308d79cec39b9bcd74944436c636cb410855c7bfc5",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "tests/windows.mjs",
+      "sha256": "ebcfc4441257a29ab598212cd29565d28f2bc68d6f56628ba2e4ee548e15a1b9",
+      "originalSha256": "ebcfc4441257a29ab598212cd29565d28f2bc68d6f56628ba2e4ee548e15a1b9",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "vite.config.mjs",
+      "sha256": "3ef34e083e5fca8b0d1c74e3560c79c733fc59abf6d177df58cc3f02d8fc3932",
+      "originalSha256": "3ef34e083e5fca8b0d1c74e3560c79c733fc59abf6d177df58cc3f02d8fc3932",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "78df890ad79b678039238bdaf7ea50d279cf8d83dc097229054aa0d463e74141",
+      "addedForPublication": true
+    },
+    {
+      "path": "CREDITS.md",
+      "sha256": "5cf7d1308b9d576169d8f6788edcf8af77f791445cc45908085d88e4b716ef31",
+      "addedForPublication": true
+    },
+    {
+      "path": "README.md",
+      "sha256": "e0301caf8d8934fa8af270a34e1d8642f1ab244f4b0f1d2a66480e93976deac1",
+      "addedForPublication": true
+    }
+  ]
+}

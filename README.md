@@ -8,6 +8,8 @@ A focused photo browser for Windows. Open a folder, browse big photo grids, swit
 
 **[Download for Windows](https://github.com/Sanz2610/luma/releases/latest)** · **[Report a bug](https://github.com/Sanz2610/luma/issues/new?template=bug_report.yml)**
 
+Free and open source · [MIT License](LICENSE) · Created by [Sanz2610](https://github.com/Sanz2610) · [Source snapshots](SOURCE.md)
+
 ![Luma photo library with folder tabs and compact controls](images/library.png)
 
 ## Download
@@ -16,8 +18,8 @@ Windows 10/11, 64-bit (x64). Luma is an early public release; feedback is welcom
 
 | Build | Best for | Updates |
 | --- | --- | --- |
-| **[Installer — Setup.exe](https://github.com/Sanz2610/luma/releases/latest/download/Luma-1.6.0-Setup.exe)** | Regular use. Installs to Program Files with Start/Desktop shortcuts. Administrator/UAC access is required. | Checks and downloads updates in the background. Choose **Restart to update** when ready. |
-| **[Portable — Windows.exe](https://github.com/Sanz2610/luma/releases/latest/download/Luma-1.6.0-Windows.exe)** | Run without installing. Extracts on launch; settings are stored in your Windows profile. | Checks for new releases. Download the new portable file and replace the old one while Luma is closed. |
+| **[Installer — Setup.exe](https://github.com/Sanz2610/luma/releases/latest/download/Luma-1.6.1-Setup.exe)** | Regular use. Installs to Program Files with Start/Desktop shortcuts. Administrator/UAC access is required. | Checks and downloads updates in the background. Choose **Restart to update** when ready. |
+| **[Portable — Windows.exe](https://github.com/Sanz2610/luma/releases/latest/download/Luma-1.6.1-Windows.exe)** | Run without installing. Extracts on launch; settings are stored in your Windows profile. | Checks for new releases. Download the new portable file and replace the old one while Luma is closed. |
 
 The current build has no publisher signing certificate, so Windows may show an unknown-publisher warning. Download from this repository's Releases and compare SHA-256 with `SHA256SUMS.txt` when needed. Versions before 1.6 require one manual update to gain the updater.
 
@@ -70,6 +72,8 @@ Browsing and thumbnail generation happen locally. Settings and cached previews l
 
 Use **[Issues](https://github.com/Sanz2610/luma/issues)** for bugs and suggestions. Include your Luma version, Windows version, installer/portable build, steps to reproduce and the affected file type. Do not attach private photos or unredacted logs.
 
-This repository contains the public introduction and Windows release downloads. Development source is maintained in a separate private repository. Open-source component notices accompany each release; Electron and Chromium licenses are included in the application payload.
+This repository contains the introduction, released source snapshots and Windows downloads. Development history is maintained in a separate private repository. Open-source component notices accompany each release; Electron and Chromium licenses are included in the application payload. See [Credits](CREDITS.md) for attribution. In Luma, the sidebar's **About Luma** button links to the project, developer, source and license.
+
+Enjoying Luma? **[Buy me a coffee](DONATE.md)** — optional support for its continued development.
 
 Screenshots use generated sample artwork.
