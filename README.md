@@ -16,8 +16,8 @@ Windows 10/11, 64-bit (x64). Luma is an early public release; feedback is welcom
 
 | Build | Best for | Updates |
 | --- | --- | --- |
-| **[Installer - Setup.exe](https://github.com/Sanz2610/luma/releases/latest/download/Luma-1.8.0-Setup.exe)** | Regular use. Installs to Program Files with Start/Desktop shortcuts. Administrator/UAC access is required. | Checks and downloads updates in the background. Choose **Restart to update** when ready. |
-| **[Portable - Windows.exe](https://github.com/Sanz2610/luma/releases/latest/download/Luma-1.8.0-Windows.exe)** | Run without installing. Extracts on launch; settings are stored in your Windows profile. | Checks for new releases. Download the new portable file and replace the old one while Luma is closed. |
+| **[Installer - Setup.exe](https://github.com/Sanz2610/luma/releases/latest/download/Luma-1.9.0-Setup.exe)** | Regular use. Installs to Program Files with Start/Desktop shortcuts. Administrator/UAC access is required. | Checks and downloads updates in the background. Choose **Restart to update** when ready. |
+| **[Portable - Windows.exe](https://github.com/Sanz2610/luma/releases/latest/download/Luma-1.9.0-Windows.exe)** | Run without installing. Extracts on launch; settings are stored in your Windows profile. | Checks for new releases. Download the new portable file and replace the old one while Luma is closed. |
 
 The current build has no publisher signing certificate, so Windows may show an unknown-publisher warning. Download from this repository's Releases and compare SHA-256 with `SHA256SUMS.txt` when needed. Versions before 1.6 require one manual update to gain the updater.
 
@@ -27,9 +27,10 @@ The current build has no publisher signing certificate, so Windows may show an u
 - **Folders as tabs:** every immediate subfolder becomes a tab. Drag to reorder, sort by name or date created, and add custom display names without renaming directories.
 - **Find folders fast:** searchable folder browser in 1-4 columns, keyboard navigation and a Manage mode for sorting, renaming and hiding tabs.
 - **Browse deeper:** the small footer path opens subfolders with breadcrumbs, search and parent navigation. A tab includes descendant photos; pick a deeper folder to view only that branch without more tabs.
-- **Viewer:** keep browsing the library while a photo is open in its own window. Fit, actual size, wheel zoom, pan, fullscreen and navigation edges. Wheel zoom-out stops at Fit; the slider goes smaller. Info shows dimensions, file size, dates, available DPI/bit depth and the source path.
+- **Viewer:** keep browsing the library while a photo is open in its own window. Fit, actual size, wheel zoom, pan, fullscreen and navigation edges. Wheel zoom-out stops at Fit; the slider goes smaller. Info shows dimensions, file size, dates, available DPI/bit depth and the source path. Click the image to hide/show the footer; double-click and pan keep their actions. Use the trash icon or Delete key to recycle the current photo and continue to the next.
 - **Remember your workspace:** library and viewer restore their own windowed, maximized or fullscreen state.
-- **Organize:** select multiple photos and move them to Windows Recycle Bin after confirmation.
+- **Photo menu:** right-click a thumbnail for Open, Show in Explorer, Google Lens, Properties and Delete. Shift+F10 also opens the menu.
+- **Organize:** drag a rectangle to select photos, including rows reached by edge autoscroll. Ctrl/Shift+drag adds to the selection; a blank click clears it. Deletion uses Windows Recycle Bin. Confirmation defaults on and can be disabled in **Settings > Deleting photos**.
 - **Folder shortcuts:** attach a website or search text to an individual tab.
 - **Google Lens:** explicitly search the current image using a preview in your default browser.
 
@@ -53,7 +54,8 @@ If all folders were hidden, Luma explains the empty library and offers **Hidden 
 | **Ctrl+K** - find a folder | **Mouse wheel** - zoom |
 | **F5** - refresh | **0 / 1** - fit / actual size |
 | **F11** - fullscreen | **F / F11** - fullscreen |
-| **Shift+click** - select a range | **Esc** - close viewer |
+| **Shift+click** - select a range | **Delete** - recycle current photo |
+| **Shift+F10** - photo menu | **I / Esc** - Info / close viewer |
 
 ## Formats and large libraries
 

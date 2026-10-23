@@ -4,6 +4,7 @@ Luma is free and open source under the [MIT License](LICENSE). Created and maint
 
 | Version | Browse source | Release |
 | --- | --- | --- |
+| 1.9.0 | [source/1.9.0](source/1.9.0) | [v1.9.0](https://github.com/Sanz2610/luma/releases/tag/v1.9.0) |
 | 1.8.0 | [source/1.8.0](source/1.8.0) | [v1.8.0](https://github.com/Sanz2610/luma/releases/tag/v1.8.0) |
 | 1.7.0 | [source/1.7.0](source/1.7.0) | [v1.7.0](https://github.com/Sanz2610/luma/releases/tag/v1.7.0) |
 | 1.6.1 | [source/1.6.1](source/1.6.1) | [v1.6.1](https://github.com/Sanz2610/luma/releases/tag/v1.6.1) |
