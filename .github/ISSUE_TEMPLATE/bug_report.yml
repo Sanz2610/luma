@@ -3,12 +3,12 @@ description: Report a problem with Luma for Windows
 body:
   - type: markdown
     attributes:
-      value: Please do not attach private photos or unredacted logs.
+      value: Please do not attach private media or unredacted logs.
   - type: input
     id: version
     attributes:
       label: Luma version and build
-      placeholder: 1.6.0 Installer / Portable
+      placeholder: 1.10.0 Installer / Portable
     validations:
       required: true
   - type: input
@@ -28,5 +28,5 @@ body:
   - type: textarea
     id: context
     attributes:
-      label: Image or library context
-      description: File type/dimensions, approximate photo/folder count, and local/network drive. Use sample files only.
+      label: Media or library context
+      description: File type, dimensions or video codec, approximate file/folder count and local/network drive. Use sample files only.

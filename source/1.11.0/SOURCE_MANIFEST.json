@@ -1,0 +1,401 @@
+{
+  "version": "1.11.0",
+  "developmentCommit": "ad42303534228c06c6277c69a8e26eeef287a95c",
+  "license": "MIT",
+  "copyright": "2026 Sanz2610",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "67c8553872a8e7d08366c8ec66767ef13938ea04f749c3bcdbe050c664d340af",
+      "originalSha256": "67c8553872a8e7d08366c8ec66767ef13938ea04f749c3bcdbe050c664d340af",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "b0bae0e5bdec636f5b19b787abc5b76e4eff780da166201f351f1cc5d25773e9",
+      "originalSha256": "b0bae0e5bdec636f5b19b787abc5b76e4eff780da166201f351f1cc5d25773e9",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "CODEC_SOURCES.md",
+      "sha256": "04ef092901037113138af33c16f2bc212e2c1c2454c033d026c886187b2e7b12",
+      "originalSha256": "04ef092901037113138af33c16f2bc212e2c1c2454c033d026c886187b2e7b12",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "build/icon.ico",
+      "sha256": "ddcd3017be6bab4947c80ed905273fd85a2ce39ff2812b8db8d4939233fa2bd4",
+      "originalSha256": "ddcd3017be6bab4947c80ed905273fd85a2ce39ff2812b8db8d4939233fa2bd4",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "build/icon.png",
+      "sha256": "fc7940982ce95a62ecc86bd771aef4e12108867edede3d8a53f1dafd4a3153c3",
+      "originalSha256": "fc7940982ce95a62ecc86bd771aef4e12108867edede3d8a53f1dafd4a3153c3",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "build/installer.nsh",
+      "sha256": "40b2bae930c08b5bc7f83a82c0cc83e8b8cc99e026d4883ec5407248b7bfd6af",
+      "originalSha256": "40b2bae930c08b5bc7f83a82c0cc83e8b8cc99e026d4883ec5407248b7bfd6af",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "electron/donations.json",
+      "sha256": "46dd779bf93e725bdc9c6a6c903ad17436e429d70a2fcaf4f010421f93d3d038",
+      "originalSha256": "46dd779bf93e725bdc9c6a6c903ad17436e429d70a2fcaf4f010421f93d3d038",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "electron/image-details.cjs",
+      "sha256": "74f403758b21dff0be4265323ff88595ccc89312039fe5b0a722e20b22d4edfc",
+      "originalSha256": "74f403758b21dff0be4265323ff88595ccc89312039fe5b0a722e20b22d4edfc",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "electron/image-formats.cjs",
+      "sha256": "b976fe4bbbcd9cebd592579aa66425402de8e0bef84fc01826f36c23f0fdc5af",
+      "originalSha256": "b976fe4bbbcd9cebd592579aa66425402de8e0bef84fc01826f36c23f0fdc5af",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "electron/lens.cjs",
+      "sha256": "e402849e4fb214c1d0b3b3e94e7c9f23695f9d2f9a9ed3deb90426c7c5ac3325",
+      "originalSha256": "e402849e4fb214c1d0b3b3e94e7c9f23695f9d2f9a9ed3deb90426c7c5ac3325",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "electron/library.cjs",
+      "sha256": "15533f81ee1d236e83adeb11ba200e2623699b3668b2299d88ba15144f43edde",
+      "originalSha256": "15533f81ee1d236e83adeb11ba200e2623699b3668b2299d88ba15144f43edde",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "electron/main.cjs",
+      "sha256": "d48cb47ea37a38cff7fd9fa01a8ed30e70bf43333964fa612c3808dc0c334e7e",
+      "originalSha256": "d48cb47ea37a38cff7fd9fa01a8ed30e70bf43333964fa612c3808dc0c334e7e",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "electron/media-stream.cjs",
+      "sha256": "94851940efbd739b01d7b307dc77438a675cddac6e32b379a00cade5b8c10ba2",
+      "originalSha256": "94851940efbd739b01d7b307dc77438a675cddac6e32b379a00cade5b8c10ba2",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "electron/preload.cjs",
+      "sha256": "596fc0b08da79a4c7096f1e489786277895bcde62ea1a87a462c20a4b234bdbd",
+      "originalSha256": "596fc0b08da79a4c7096f1e489786277895bcde62ea1a87a462c20a4b234bdbd",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "electron/project-links.cjs",
+      "sha256": "13f405b95f6062f150b8b85a1b94ad4b455015350573f6618fca3e440d4defd5",
+      "originalSha256": "13f405b95f6062f150b8b85a1b94ad4b455015350573f6618fca3e440d4defd5",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "electron/thumbnail-service.cjs",
+      "sha256": "7d104511468872515ff56790fa6a1cf2d1e7a061632966f2c3a9a7f530f86418",
+      "originalSha256": "7d104511468872515ff56790fa6a1cf2d1e7a061632966f2c3a9a7f530f86418",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "electron/thumbnail-worker.cjs",
+      "sha256": "1037688769350cbc6e58cbd6706dd4d9456015419dc81db6514a861e17a67d8a",
+      "originalSha256": "1037688769350cbc6e58cbd6706dd4d9456015419dc81db6514a861e17a67d8a",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "electron/updates.cjs",
+      "sha256": "21e313b954fc23598b6b8aec72a5a6835ebca996c10486f0eb0585b5aa356be7",
+      "originalSha256": "21e313b954fc23598b6b8aec72a5a6835ebca996c10486f0eb0585b5aa356be7",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "electron/video-preload.cjs",
+      "sha256": "0048edbaa6548a2c3cf045849475c3df9ef2dea26fd5afa2bebe9b794f420a9e",
+      "originalSha256": "0048edbaa6548a2c3cf045849475c3df9ef2dea26fd5afa2bebe9b794f420a9e",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "electron/video-renderer.js",
+      "sha256": "b28e1206796515d77cedcef2b0c0cc2a60356673b1dab7bf1d9c70a8c3062a3b",
+      "originalSha256": "b28e1206796515d77cedcef2b0c0cc2a60356673b1dab7bf1d9c70a8c3062a3b",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "electron/video-worker.cjs",
+      "sha256": "e398c4d18b7b3a0c6270a7605c3e1156a4a7a250d9c804b423a78f552106fc24",
+      "originalSha256": "e398c4d18b7b3a0c6270a7605c3e1156a4a7a250d9c804b423a78f552106fc24",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "electron/video-worker.html",
+      "sha256": "11d3eb6795e3a4f45d1e520ec0b12591fb10609cfddb13f5f133be9f9190bbd2",
+      "originalSha256": "11d3eb6795e3a4f45d1e520ec0b12591fb10609cfddb13f5f133be9f9190bbd2",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "electron/window-message.cjs",
+      "sha256": "d7b5af0669455e70391168d1fcad13e4770219e1580bc9a9925ff842bbff7fdd",
+      "originalSha256": "d7b5af0669455e70391168d1fcad13e4770219e1580bc9a9925ff842bbff7fdd",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "electron/window-state.cjs",
+      "sha256": "f12632a8ad7cf781ba52093a2f847cdaf770a844647d65ee5b984b5a92ce5581",
+      "originalSha256": "f12632a8ad7cf781ba52093a2f847cdaf770a844647d65ee5b984b5a92ce5581",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "index.html",
+      "sha256": "b99cc63943d869ff63141f8e3a176fd0908e96a5a09fe5af71a5d778fa4acd09",
+      "originalSha256": "b99cc63943d869ff63141f8e3a176fd0908e96a5a09fe5af71a5d778fa4acd09",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "licenses/Brotli.txt",
+      "sha256": "3d180008e36922a4e8daec11c34c7af264fed5962d07924aea928c38e8663c94",
+      "originalSha256": "3d180008e36922a4e8daec11c34c7af264fed5962d07924aea928c38e8663c94",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "licenses/GPL-3.0.txt",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "originalSha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "licenses/Highway.txt",
+      "sha256": "43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1",
+      "originalSha256": "43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "licenses/LGPL-3.0.txt",
+      "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
+      "originalSha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "licenses/libjxl-LICENSE.txt",
+      "sha256": "8405932022a556380c2d8c272eff154a923feb197233f348ce5f7334fb0a5ede",
+      "originalSha256": "8405932022a556380c2d8c272eff154a923feb197233f348ce5f7334fb0a5ede",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "licenses/libjxl-PATENTS.txt",
+      "sha256": "91915f8ae056a68a3c5bdf05d9f6f78bb6903e27a8ca3a8434c9e4ac87300575",
+      "originalSha256": "91915f8ae056a68a3c5bdf05d9f6f78bb6903e27a8ca3a8434c9e4ac87300575",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "licenses/skcms.txt",
+      "sha256": "e59bb5c5c6ba426a9ac4ba9fe667ad14c5166b12aa25be8af1d122b14fbe2e36",
+      "originalSha256": "e59bb5c5c6ba426a9ac4ba9fe667ad14c5166b12aa25be8af1d122b14fbe2e36",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "d15cd6fea1e99d7ddc4796581d202a6cd44fb1da53151e02dbb6912c5ec5464b",
+      "originalSha256": "685f5e1a92f5ac63af08e3d84d2f57dc76e7012ea5d52049d6eeda32cbdfabf8",
+      "matchesDevelopmentCommit": false
+    },
+    {
+      "path": "package.json",
+      "sha256": "b14e157b0623a7d39b37d3d04e897034685fb9cced6ee26212f8a23907360b1a",
+      "originalSha256": "580013528ed191b6577487a15ce8988e7d75784e3acf26431ced895c5041fec6",
+      "matchesDevelopmentCommit": false
+    },
+    {
+      "path": "scripts/notices.mjs",
+      "sha256": "39ff7b0288241b7c162b74f2e7f71fb9320573f731b039756a37a6d6840d6dcc",
+      "originalSha256": "39ff7b0288241b7c162b74f2e7f71fb9320573f731b039756a37a6d6840d6dcc",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "src/About.jsx",
+      "sha256": "3d7ede1b66220018ab5f9b17d26d34ff514e6ea721105c97f8cf12ac6c3549c5",
+      "originalSha256": "3d7ede1b66220018ab5f9b17d26d34ff514e6ea721105c97f8cf12ac6c3549c5",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "src/App.jsx",
+      "sha256": "80a9f91da5d0dd25c3d763fdc59b9a36445a2e97e838a8264659b6411ca9529a",
+      "originalSha256": "80a9f91da5d0dd25c3d763fdc59b9a36445a2e97e838a8264659b6411ca9529a",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "src/Donate.jsx",
+      "sha256": "9aee58160ee031d19ab07ff0fc5769574cf6a98ec6d035de03865a0b6ae82bd0",
+      "originalSha256": "9aee58160ee031d19ab07ff0fc5769574cf6a98ec6d035de03865a0b6ae82bd0",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "src/FolderTabs.jsx",
+      "sha256": "b3a4fb26b8e71422822cdf144d22da1e4c862fa36fac0a204c5f0a3097691346",
+      "originalSha256": "b3a4fb26b8e71422822cdf144d22da1e4c862fa36fac0a204c5f0a3097691346",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "src/ImageInfo.jsx",
+      "sha256": "9af27dd48a855e3fa9d6836d05d5113b40e879f5e62b3b725149050d18c05e62",
+      "originalSha256": "9af27dd48a855e3fa9d6836d05d5113b40e879f5e62b3b725149050d18c05e62",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "src/MediaFilters.jsx",
+      "sha256": "af8a3409e00fe396909ed20ed96f4130e55dc7af0c56b57ca57fdc5d7056d939",
+      "originalSha256": "af8a3409e00fe396909ed20ed96f4130e55dc7af0c56b57ca57fdc5d7056d939",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "src/PhotoDeletion.jsx",
+      "sha256": "e91eff7f06155c59e548d07da7f5fbc0f54e6db597a848ba65e2ff638faa4862",
+      "originalSha256": "e91eff7f06155c59e548d07da7f5fbc0f54e6db597a848ba65e2ff638faa4862",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "src/PhotoGrid.jsx",
+      "sha256": "04fd2edca8c4d8f09a092f1858df0714dbb2ca56a82bbc57f50cab7c57e988fa",
+      "originalSha256": "04fd2edca8c4d8f09a092f1858df0714dbb2ca56a82bbc57f50cab7c57e988fa",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "src/PhotoMenu.jsx",
+      "sha256": "5502be21fc8055034e2f48dc3a99061693a61eb97fd418777cfd4f960e0bf23d",
+      "originalSha256": "5502be21fc8055034e2f48dc3a99061693a61eb97fd418777cfd4f960e0bf23d",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "src/Subfolders.jsx",
+      "sha256": "8ab8f4e1b7477f10fba27108906fe469d76a54dafe90c4f1015a3317646f4cdc",
+      "originalSha256": "8ab8f4e1b7477f10fba27108906fe469d76a54dafe90c4f1015a3317646f4cdc",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "src/Thumbnail.jsx",
+      "sha256": "6c5228952d8f942ca569fe6a652d27a5b7166ae2202809eb99821fd74dc13987",
+      "originalSha256": "6c5228952d8f942ca569fe6a652d27a5b7166ae2202809eb99821fd74dc13987",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "src/Updates.jsx",
+      "sha256": "509d0a52b0f08023d09baafd6b19abf0c1242a6cbfce76f72bf2bffc8cd9895f",
+      "originalSha256": "509d0a52b0f08023d09baafd6b19abf0c1242a6cbfce76f72bf2bffc8cd9895f",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "src/Viewer.jsx",
+      "sha256": "4a9dc4e833ae6a657fac298edc72a1aa80eed88c67d70423bb1a52a13748633c",
+      "originalSha256": "4a9dc4e833ae6a657fac298edc72a1aa80eed88c67d70423bb1a52a13748633c",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "src/ViewerWheelSetting.jsx",
+      "sha256": "5ef27c5948464421a16574fa85e306038a99fbad35946a7a3b6ad7f7d5c8f4d5",
+      "originalSha256": "5ef27c5948464421a16574fa85e306038a99fbad35946a7a3b6ad7f7d5c8f4d5",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "src/ViewerWindow.jsx",
+      "sha256": "9b152dc4a5012a06590238d1dcca18dd2c721948cda27f69d507f3f00fb80e41",
+      "originalSha256": "9b152dc4a5012a06590238d1dcca18dd2c721948cda27f69d507f3f00fb80e41",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "src/WindowMaximize.jsx",
+      "sha256": "fce7f6532a05714a26312ff90cb5344b0f3b8258b6bab4d393fa4150abd64d56",
+      "originalSha256": "fce7f6532a05714a26312ff90cb5344b0f3b8258b6bab4d393fa4150abd64d56",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "src/api.js",
+      "sha256": "69b0640af94c0e30c8db5bba715b61c4f4c14f91d37f4efe3412caaf045d0f2d",
+      "originalSha256": "69b0640af94c0e30c8db5bba715b61c4f4c14f91d37f4efe3412caaf045d0f2d",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "src/assets/donate/hdbank.png",
+      "sha256": "f138b9b6a40bf1f2f54277d4413009d1270d00fc7a8b1b70ffa96ce9a21549e5",
+      "originalSha256": "f138b9b6a40bf1f2f54277d4413009d1270d00fc7a8b1b70ffa96ce9a21549e5",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "src/assets/donate/momo.png",
+      "sha256": "36b58342d2044572ceac9ddb49b59f1ef8a095b807894b7fa6e1b7337df07c9f",
+      "originalSha256": "36b58342d2044572ceac9ddb49b59f1ef8a095b807894b7fa6e1b7337df07c9f",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "src/assets/donate/techcombank.png",
+      "sha256": "a201dd9e3d15d914c49f68f848910ea19999b18178a753de323e963066694628",
+      "originalSha256": "a201dd9e3d15d914c49f68f848910ea19999b18178a753de323e963066694628",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "src/layout.mjs",
+      "sha256": "97a2cd5e28f2e7a28943b6ea30b1dcf56f70eea6cecbf80fd95e0cc5ee93203c",
+      "originalSha256": "97a2cd5e28f2e7a28943b6ea30b1dcf56f70eea6cecbf80fd95e0cc5ee93203c",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "src/main.jsx",
+      "sha256": "9087fda3af10e335c2965fc59e5492971eb9a158d4da9f97e7e793a6717392ad",
+      "originalSha256": "9087fda3af10e335c2965fc59e5492971eb9a158d4da9f97e7e793a6717392ad",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "src/media-filters.mjs",
+      "sha256": "f3e7cf24b4249369c8577985de34637c07084f5311ece7f322c9056e2e3c6884",
+      "originalSha256": "f3e7cf24b4249369c8577985de34637c07084f5311ece7f322c9056e2e3c6884",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "src/styles.css",
+      "sha256": "6088cf2cfe07d11926883d7a925485a893ad5d8f484ff6ab3b44839b02c13de6",
+      "originalSha256": "6088cf2cfe07d11926883d7a925485a893ad5d8f484ff6ab3b44839b02c13de6",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "src/thumbnail-client.js",
+      "sha256": "453d35f1ef09bdd9e4d7afb1c7207b4cf50cac8ba984071c9ea94bed186e3735",
+      "originalSha256": "453d35f1ef09bdd9e4d7afb1c7207b4cf50cac8ba984071c9ea94bed186e3735",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "src/ui.jsx",
+      "sha256": "8af8ab2780c2304597b986a81718e1c13f73ba57158ae56aaed90ecf5594c995",
+      "originalSha256": "8af8ab2780c2304597b986a81718e1c13f73ba57158ae56aaed90ecf5594c995",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "src/viewer-wheel.mjs",
+      "sha256": "7533dbe542a80a70699b74ad7fd49eb5f870e61efd99216e11305ab374d5f4c0",
+      "originalSha256": "7533dbe542a80a70699b74ad7fd49eb5f870e61efd99216e11305ab374d5f4c0",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "vite.config.mjs",
+      "sha256": "3ef34e083e5fca8b0d1c74e3560c79c733fc59abf6d177df58cc3f02d8fc3932",
+      "originalSha256": "3ef34e083e5fca8b0d1c74e3560c79c733fc59abf6d177df58cc3f02d8fc3932",
+      "matchesDevelopmentCommit": true
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "78df890ad79b678039238bdaf7ea50d279cf8d83dc097229054aa0d463e74141",
+      "addedForPublication": true
+    },
+    {
+      "path": "CREDITS.md",
+      "sha256": "1d848276c457bdb85756139e4797e25f2f7a4120656457a7ec67bb5ea751d85e",
+      "addedForPublication": true
+    },
+    {
+      "path": "README.md",
+      "sha256": "e356445d7e4f05033ee35cc2ffd71c2b69bb1cde6b9621f6bd1535db62d14f4f",
+      "addedForPublication": true
+    }
+  ]
+}
