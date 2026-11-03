@@ -2,9 +2,7 @@
 
 A local media viewer for Windows by [Sanz2610](https://github.com/Sanz2610).
 
-[Installer](https://github.com/Sanz2610/luma/releases/latest/download/Luma-1.10.0-Setup.exe) · [Portable](https://github.com/Sanz2610/luma/releases/latest/download/Luma-1.10.0-Windows.exe) · [Source](source/1.11.0) · [Issues](https://github.com/Sanz2610/luma/issues)
-
-**1.11 source preview:** JXL, MP4/MOV and filters are available in the source below. Downloadable binaries are still **1.10.0** until the next release.
+[Installer](https://github.com/Sanz2610/luma/releases/latest/download/Luma-1.11.0-Setup.exe) · [Portable](https://github.com/Sanz2610/luma/releases/latest/download/Luma-1.11.0-Windows.exe) · [Source](source/1.11.0) · [Issues](https://github.com/Sanz2610/luma/issues)
 
 - Folder tabs, nested folders and a full-width thumbnail grid.
 - Filter by minimum width/height, file type and words in filenames. Filters can be remembered.
