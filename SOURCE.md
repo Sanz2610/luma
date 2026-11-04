@@ -1,5 +1,5 @@
 # Source
 
-[Current source](source/1.11.1). Build instructions are in its README. Previous versions remain in source/ and Git tags.
+[Current source](source/1.12.0). Build instructions are in its README. Previous versions remain in source/ and Git tags.
 
 [MIT License](LICENSE) · [Credits](CREDITS.md)
