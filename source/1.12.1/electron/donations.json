@@ -1,0 +1,16 @@
+{
+  "recipient": "PHAN VAN LAP",
+  "paypal": "https://paypal.me/PhanVanLap",
+  "banks": {
+    "hdbank": {
+      "name": "HDBank",
+      "account": "051704070016617",
+      "display": "0517 0407 0016 617"
+    },
+    "techcombank": {
+      "name": "Techcombank",
+      "account": "19036932399011",
+      "display": "1903 6932 3990 11"
+    }
+  }
+}

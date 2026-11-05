@@ -2,7 +2,7 @@
 
 Luma is a free, open-source photo and video viewer for Windows 10/11 (x64). Browse local media in a thumbnail grid, switch folders with tabs, and open files in a separate viewer. English interface. Developed by [Sanz2610](https://github.com/Sanz2610).
 
-**Download Luma 1.12.0:** [Windows installer](https://github.com/Sanz2610/luma/releases/download/v1.12.0/Luma-1.12.0-Setup.exe) · [Portable EXE](https://github.com/Sanz2610/luma/releases/download/v1.12.0/Luma-1.12.0-Windows.exe)
+**Download Luma 1.12.1:** [Windows installer](https://github.com/Sanz2610/luma/releases/download/v1.12.1/Luma-1.12.1-Setup.exe) · [Portable EXE](https://github.com/Sanz2610/luma/releases/download/v1.12.1/Luma-1.12.1-Windows.exe)
 
 - Adjustable thumbnail size, square or 4:5 grids, folder tabs and nested folders.
 - Filter by file type, image dimensions or filename keyword.
@@ -20,4 +20,4 @@ Luma is a free, open-source photo and video viewer for Windows 10/11 (x64). Brow
 
 Browsing is local. Google Lens sends a preview only when clicked; update checks use GitHub. Files change only through explicit organize/delete actions.
 
-[Source and build instructions](source/1.12.0) · [Report an issue](https://github.com/Sanz2610/luma/issues) · [MIT License](LICENSE) · [Credits](CREDITS.md) · [Donate](DONATE.md)
+[Source and build instructions](source/1.12.1) · [Report an issue](https://github.com/Sanz2610/luma/issues) · [MIT License](LICENSE) · [Credits](CREDITS.md) · [Donate](DONATE.md)
